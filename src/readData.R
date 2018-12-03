@@ -7,7 +7,7 @@ library(ggplot2)
 # Read in data
 # positional data about the RV Kahuna
 # kahuna <- read_csv('../../../presentations/2018/2018-12-03_DUML-RepResearch/data/2018-11-26_2017-Cape-Hatteras-BRS-kahuna-CEE.csv') 
-kahuna <- read_csv('2018-11-26_2017-Cape-Hatteras-BRS-kahuna-CEE.csv')
+kahuna <- read_csv('data/2018-11-26_2017-Cape-Hatteras-BRS-kahuna-CEE.csv')
 kStart <- kahuna %>% 
   filter(status == 'start')
 
